@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/JackBlackPearl/static/css/main.9ca956f6.chunk.css"
   },
   {
-    "revision": "0b8654629af5f01122ad47e0ffcb52f4",
+    "revision": "fa2da7b48773fab758732047e0e54f51",
     "url": "/JackBlackPearl/index.html"
   }
 ];
