@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/JackBlackPearl/static/media/richard.353e2047.jpg"
   },
   {
-    "revision": "15363d9ef66749403b03",
-    "url": "/JackBlackPearl/static/css/main.e0c0b0a4.chunk.css"
+    "revision": "6217f4289c18942ff2ff",
+    "url": "/JackBlackPearl/static/css/main.ec06c0b8.chunk.css"
   },
   {
-    "revision": "d37fbd979541e5acdeb8",
-    "url": "/JackBlackPearl/static/js/1.d37fbd97.chunk.js"
+    "revision": "0f2181b9654739fa0a06",
+    "url": "/JackBlackPearl/static/js/1.0f2181b9.chunk.js"
   },
   {
     "revision": "c17652698adde6835d9c",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/JackBlackPearl/static/media/wave.fe70ddd1.svg"
   },
   {
-    "revision": "15363d9ef66749403b03",
-    "url": "/JackBlackPearl/static/js/main.15363d9e.chunk.js"
+    "revision": "6217f4289c18942ff2ff",
+    "url": "/JackBlackPearl/static/js/main.6217f428.chunk.js"
   },
   {
     "revision": "f0eafb24f6aa3aae174c39c45c1e9c4e",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/JackBlackPearl/static/media/BlackPearl.5743890c.ttf"
   },
   {
-    "revision": "f9bce3e7fd7f0d5e4654ed6010227e53",
+    "revision": "5218facd89cdeebf0d4d705c89b0ecf2",
     "url": "/JackBlackPearl/index.html"
   }
 ];

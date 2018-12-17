@@ -1,9 +1,9 @@
 {
-  "main.css": "/JackBlackPearl/static/css/main.e0c0b0a4.chunk.css",
-  "main.js": "/JackBlackPearl/static/js/main.15363d9e.chunk.js",
-  "main.js.map": "/JackBlackPearl/static/js/main.15363d9e.chunk.js.map",
-  "static/js/1.d37fbd97.chunk.js": "/JackBlackPearl/static/js/1.d37fbd97.chunk.js",
-  "static/js/1.d37fbd97.chunk.js.map": "/JackBlackPearl/static/js/1.d37fbd97.chunk.js.map",
+  "main.css": "/JackBlackPearl/static/css/main.ec06c0b8.chunk.css",
+  "main.js": "/JackBlackPearl/static/js/main.6217f428.chunk.js",
+  "main.js.map": "/JackBlackPearl/static/js/main.6217f428.chunk.js.map",
+  "static/js/1.0f2181b9.chunk.js": "/JackBlackPearl/static/js/1.0f2181b9.chunk.js",
+  "static/js/1.0f2181b9.chunk.js.map": "/JackBlackPearl/static/js/1.0f2181b9.chunk.js.map",
   "runtime~main.js": "/JackBlackPearl/static/js/runtime~main.c1765269.js",
   "runtime~main.js.map": "/JackBlackPearl/static/js/runtime~main.c1765269.js.map",
   "static/media/logo.svg": "/JackBlackPearl/static/media/logo.8cd54068.svg",
@@ -14,8 +14,8 @@
   "static/media/alex.jpg": "/JackBlackPearl/static/media/alex.cc187346.jpg",
   "static/media/index.css": "/JackBlackPearl/static/media/BlackPearl.5743890c.ttf",
   "static/media/bkg.css": "/JackBlackPearl/static/media/wave.fe70ddd1.svg",
-  "static/css/main.e0c0b0a4.chunk.css.map": "/JackBlackPearl/static/css/main.e0c0b0a4.chunk.css.map",
+  "static/css/main.ec06c0b8.chunk.css.map": "/JackBlackPearl/static/css/main.ec06c0b8.chunk.css.map",
   "index.html": "/JackBlackPearl/index.html",
-  "precache-manifest.f084299f45b1c58aa59b57db8ca1dac0.js": "/JackBlackPearl/precache-manifest.f084299f45b1c58aa59b57db8ca1dac0.js",
+  "precache-manifest.b4de48ff1bb82d3e82b1874ad1f0f27c.js": "/JackBlackPearl/precache-manifest.b4de48ff1bb82d3e82b1874ad1f0f27c.js",
   "service-worker.js": "/JackBlackPearl/service-worker.js"
 }
