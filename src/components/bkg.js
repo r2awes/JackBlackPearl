@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import jbp from '../images/jbp.png';
 import './bkg.css';
 
 export default class Background extends Component {
@@ -24,7 +25,14 @@ export default class Background extends Component {
 				}}>
 					<div className="sun"></div>
 				</div>
-				<div className="island"></div>
+				<div className="box-drift">
+					<div className="box-bob">
+						<div className="box-pitch">
+							<div className="left-sail"/>
+							<div className="hull"/>
+						</div>
+					</div>
+				</div>
 			</div>
 		);
 	}

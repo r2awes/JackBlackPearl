@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Background from '../components/bkg';
-import {wheel} from '../images';
+import {wheel, jbp} from '../images';
 import classNames from 'classnames';
 import {Roster, Render, History} from './index';
 import Calculations from './calculations';
@@ -9,7 +9,7 @@ const pages = [
 	{ n: "Main", t: "Welcome to the Jack Black Pearl" },
 	{ n: "Roles", t: "Meet the Crew" },
 	{ n: "Calculations", t: "See Arr Math" },
-	{ n: "Render", t: "Check Out the Boat" },
+	//{ n: "Render", t: "Check Out the Boat" },
 	{ n: "History", t: "The Captain's Log" },
 	{ n: "Rules", p: "https://higherlogicdownload.s3.amazonaws.com/SNAME/d8529458-b5f3-4aea-965c-a288f5b69c12/UploadedImages/2019/2019_Guidelines.pdf" }
 ]
@@ -59,6 +59,16 @@ export default class Main extends Component {
 						}) 
 					}
 				>
+					<div className={
+						classNames({
+							"img": true,
+							"active": this.state.act,
+						})
+					} 
+					
+					style={{
+						backgroundImage: `url(${jbp})`
+					}}/>
 					<h1>{this.state.tagline}</h1>
 					<h4>2018-2019 <a className="wj" href="https://www.montgomeryschoolsmd.org/SCHOOLS/wjhs/" >Walter Johnson</a> SNAME Team</h4>
 

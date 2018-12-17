@@ -6,6 +6,7 @@ import martin from './members/martin.jpg';
 import lucy from './members/lucy.jpg';
 import liam from './members/liam.jpg';
 import alex from './members/alex.jpg';
+import jbp from  './jbp.png';
 
 export {
 	wheel,
@@ -15,5 +16,6 @@ export {
 	martin,
 	lucy,
 	alex,
-	liam
+	liam,
+	jbp
 };

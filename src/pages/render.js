@@ -11,17 +11,10 @@ export default class Render extends Component {
 	render() {
 		return(
 			<div 
-				className={
-					classNames({
-						data: true,
-						active: this.props.animate,
-					})
-				}
-
 				style={{
-					justifyContent: 'flex-start',
-					alignItems: 'flex-start',
-					flexDirection: 'row'
+					width: 100 + '%',
+					height: 100 + '%',
+					position: 'absolute',
 				}}
 			>
 				<Unity unityContent={this.unityContent}/>
