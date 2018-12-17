@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/JackBlackPearl/static/media/richard.353e2047.jpg"
   },
   {
-    "revision": "d8607f3dead98bf4b972",
-    "url": "/JackBlackPearl/static/css/main.42096408.chunk.css"
+    "revision": "608be8301639e537e38f",
+    "url": "/JackBlackPearl/static/css/main.9d8c4759.chunk.css"
   },
   {
     "revision": "2f52ff9ff798907cfc71",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/JackBlackPearl/static/media/wave.fe70ddd1.svg"
   },
   {
-    "revision": "d8607f3dead98bf4b972",
-    "url": "/JackBlackPearl/static/js/main.d8607f3d.chunk.js"
+    "revision": "608be8301639e537e38f",
+    "url": "/JackBlackPearl/static/js/main.608be830.chunk.js"
   },
   {
     "revision": "f0eafb24f6aa3aae174c39c45c1e9c4e",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/JackBlackPearl/static/media/BlackPearl.5743890c.ttf"
   },
   {
-    "revision": "ae9f02fe7618c0935de9e165ff0b205f",
+    "revision": "5a133723814eba2339b4fec655f37f45",
     "url": "/JackBlackPearl/index.html"
   }
 ];
