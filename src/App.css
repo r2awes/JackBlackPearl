@@ -1,0 +1,194 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+}
+
+.wheel {
+  animation: logo-spin infinite 20s linear;
+	height: 400px;
+	position: absolute;
+	transition: all .5s ease-in-out;
+	top: calc(50vh - 200px);
+	z-index: -1;
+}
+
+.wheel.active {
+	top: -70px;
+}
+
+.textbox {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: rgba( 255, 255, 255, .7);
+	border-radius: 10px;
+	transition: all .5s ease-in-out;
+	padding: 40px;
+	height: 170px;
+	width: 600px;
+	box-shadow: #0000004a 0px 15px 25px 5px;
+	position: absolute;
+	top: calc(50vh - 125px);
+}
+
+.textbox.active {
+	top: 20px;
+}
+
+.textbox h1 {
+	text-align: center;
+}
+
+.menu {
+	display: flex;
+	margin-top: 30px;
+}
+
+.menuButton {
+	padding: 10px 20px;
+	margin: 0 10px;
+	text-decoration: none;
+	color: white;
+	background-color: #c7886b;
+	border-radius: 5px;
+	position: relative;
+	transition: all .5s ease-in-out;
+	cursor: pointer;
+}
+
+.menuButton:hover{
+	transform: translateY(-5px)
+}
+
+.wj {
+	transition: all .5s ease-in-out;
+	text-decoration: none;
+	color: black;
+}
+
+.wj:hover {
+	color: #006600;
+}
+
+.data {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 600px;
+	margin-top: 300px;
+	background-color: rgba( 255, 255, 255, .7);
+	border-radius: 10px;
+	transition: all .5s ease-in-out;
+	padding: 40px;
+	z-index: 2;
+	box-shadow: #0000004a 0px 15px 25px 5px;
+}
+
+.data.active {
+	animation: load-in 1s forwards;
+}
+
+
+.people {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 50px;
+	grid-row-gap: 25px;
+}
+
+.people > div {
+	grid-column: span 2;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.people > div h3 {
+	margin: 0;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.people > div:first-child {
+	grid-column: span 6;
+}
+
+.people > div:nth-last-child(2), .people > div:last-child {
+	grid-column: span 3;
+}
+
+.history {
+	padding-right: 10px;
+	border-right: 1px grey solid;
+	overflow-x: visible 
+}
+
+.date {
+	background-color: rgba( 255, 255, 255, .6);
+	border-radius: 10px;
+	padding: 10px 20px;
+	cursor: pointer;
+	width: max-content;
+}
+
+.did {
+	margin-left: 10px;
+	padding: 10px;
+	background-color: rgba( 255, 255, 255, .6);
+	border-radius: 10px;
+	height: 282px;
+	width: 100%;
+	overflow-y: scroll;
+}
+
+.did > *:first-child {
+	margin-top: 0;
+}
+
+.did > *:last-child  {
+	margin-bottom: 0;
+}
+
+.table {
+	border: 0px;
+}
+
+.table #doc-title {
+	display: none;
+}
+
+h1, h3, h4, h5 {
+	width: fit-content;
+	margin: 0;
+	font-family: BlackPearl;
+}
+
+h2, a, p, li {
+	font-family: BlackPearl;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load-in {
+	from {
+		opacity: 0;
+		transform: scale(0);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
