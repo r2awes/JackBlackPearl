@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/JackBlackPearl/precache-manifest.1e071ae9fe9e311e4a8293a0094fd5d4.js"
+  "/JackBlackPearl/precache-manifest.182e5223bd8d014a19f8ed615f868ff3.js"
 );
 
 workbox.clientsClaim();
