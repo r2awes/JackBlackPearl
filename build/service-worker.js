@@ -1,50 +1,34 @@
-var doCache = false;
+/**
+ * Welcome to your Workbox-powered service worker!
+ *
+ * You'll need to register this file in your web app and you should
+ * disable HTTP caching for this file too.
+ * See https://goo.gl/nhQhGp
+ *
+ * The rest of the code is auto-generated. Please don't update this file
+ * directly; instead, make changes to your Workbox build configuration
+ * and re-run your build process.
+ * See https://goo.gl/2aRDsh
+ */
 
-var CACHE_NAME = 'my-pwa-cache-v1';
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
-self.addEventListener("activate", event => {
-  const cacheWhitelist = [CACHE_NAME];
-  event.waitUntil(
-    caches.keys()
-      .then(keyList =>
-        Promise.all(keyList.map(key => {
-          if (!cacheWhitelist.includes(key)) {
-            console.log('Deleting cache: ' + key)
-            return caches.delete(key);
-          }
-        }))
-      )
-  );
-});
+importScripts(
+  "/JackBlackPearl/precache-manifest.4567a94ef623a8c2a7c2c89350c70469.js"
+);
 
-self.addEventListener('install', function(event) {
-  if (doCache) {
-    event.waitUntil(
-      caches.open(CACHE_NAME)
-        .then(function(cache) {
-          fetch("asset-manifest.json")
-            .then(response => {
-              response.json()
-            })
-            .then(assets => {
-              const urlsToCache = [
-                "/",
-                assets["main.js"]
-              ]
-              cache.addAll(urlsToCache)
-              console.log('cached');
-            })
-        })
-    );
-  }
-});
+workbox.clientsClaim();
 
-self.addEventListener('fetch', function(event) {
-    if (doCache) {
-      event.respondWith(
-          caches.match(event.request).then(function(response) {
-              return response || fetch(event.request);
-          })
-      );
-    }
+/**
+ * The workboxSW.precacheAndRoute() method efficiently caches and responds to
+ * requests for URLs in the manifest.
+ * See https://goo.gl/S9QRab
+ */
+self.__precacheManifest = [].concat(self.__precacheManifest || []);
+workbox.precaching.suppressWarnings();
+workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+
+workbox.routing.registerNavigationRoute("/JackBlackPearl/index.html", {
+  
+  blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
