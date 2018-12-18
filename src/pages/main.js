@@ -6,7 +6,7 @@ import {Roster, Render, History} from './index';
 import Calculations from './calculations';
 
 const pages = [
-	{ n: "Main", t: "Welcome to the Jack Black Pearl" },
+	{ n: "Main", t: `Welcome to the Jack Black Pearl` },
 	{ n: "Roles", t: "Meet the Crew" },
 	{ n: "Calculations", t: "See Arr Math" },
 	//{ n: "Render", t: "Check Out the Boat" },
@@ -40,6 +40,10 @@ export default class Main extends Component {
 	}
 
 	render() {
+		let tagline = (<h1>{this.state.tagline}</h1>);
+		if( this.state.tagline.length > 17 ) {
+			tagline = (<div className="tag"><h1>{this.state.tagline.substr(0, 11)}</h1><h1>{this.state.tagline.substr(11)}</h1></div>)
+		}
 		return(
 			<div className="main">
 				<img 
@@ -50,7 +54,8 @@ export default class Main extends Component {
 						}) 
 					} 
 					src={wheel} 
-					alt="wheel"/>
+					alt="wheel"
+				/>
 				<div 
 					className={
 						classNames({
@@ -69,7 +74,8 @@ export default class Main extends Component {
 					style={{
 						backgroundImage: `url(${jbp})`
 					}}/>
-					<h1>{this.state.tagline}</h1>
+					{tagline}
+					
 					<h4>2018-2019 <a className="wj" href="https://www.montgomeryschoolsmd.org/SCHOOLS/wjhs/" >Walter Johnson</a> SNAME Team</h4>
 
 					<div className={"menu"}>

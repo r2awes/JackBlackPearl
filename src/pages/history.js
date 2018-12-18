@@ -85,7 +85,11 @@ In this short meeting a few members finished computations and discussed the conv
 * Richard went to render one of our AutoCad files, which took him longer than expected.
 * About 4:45 Richard returned, and we realized our calculations were wrong again and had to be corrected (again)
 * Richard continued to work on the site
-* As of 6 pm, three, nearly four, drawings are completed out of the five. Our design notebook was reviewed and edited. 
+* As of 6 pm, three, nearly four, drawings are completed out of the five. Our design notebook was reviewed and edited.
+* By 7:30 PM we have turned in our calculations (packet and spreadsheet), but had to rename some of our files.
+* 7:35 Liam is almost done with the drawings
+* 7:40 PM all drawings finished
+* 7:50 PM Everything has been submitted
 `
 	}
 ];

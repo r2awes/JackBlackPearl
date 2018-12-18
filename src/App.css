@@ -42,6 +42,13 @@
 	text-align: center;
 }
 
+.textbox .tag {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .menu {
 	display: flex;
 	margin-top: 30px;
@@ -153,6 +160,14 @@
 
 .did > *:last-child  {
 	margin-bottom: 0;
+}
+
+.did p, .did li {
+	font-size: 1.2rem;
+}
+
+.did h2 {
+	font-size: 2rem;
 }
 
 .table {
